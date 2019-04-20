@@ -4,10 +4,10 @@
 #
 Name     : perl-Test-MockTime
 Version  : 0.17
-Release  : 11
+Release  : 12
 URL      : https://cpan.metacpan.org/authors/id/D/DD/DDICK/Test-MockTime-0.17.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/D/DD/DDICK/Test-MockTime-0.17.tar.gz
-Summary  : 'Replaces actual time with simulated time '
+Summary  : Replaces actual time with simulated time
 Group    : Development/Tools
 License  : Artistic-1.0-Perl
 BuildRequires : buildreq-cpan
@@ -22,6 +22,7 @@ Version 0.17
 Summary: dev components for the perl-Test-MockTime package.
 Group: Development
 Provides: perl-Test-MockTime-devel = %{version}-%{release}
+Requires: perl-Test-MockTime = %{version}-%{release}
 
 %description dev
 dev components for the perl-Test-MockTime package.
