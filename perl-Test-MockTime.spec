@@ -4,7 +4,7 @@
 #
 Name     : perl-Test-MockTime
 Version  : 0.17
-Release  : 17
+Release  : 18
 URL      : https://cpan.metacpan.org/authors/id/D/DD/DDICK/Test-MockTime-0.17.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/D/DD/DDICK/Test-MockTime-0.17.tar.gz
 Summary  : 'Replaces actual time with simulated time '
@@ -83,4 +83,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.1/Test/MockTime.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Test/MockTime.pm
