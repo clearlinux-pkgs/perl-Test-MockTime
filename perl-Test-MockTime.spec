@@ -7,7 +7,7 @@
 #
 Name     : perl-Test-MockTime
 Version  : 0.17
-Release  : 34
+Release  : 35
 URL      : https://cpan.metacpan.org/authors/id/D/DD/DDICK/Test-MockTime-0.17.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/D/DD/DDICK/Test-MockTime-0.17.tar.gz
 Summary  : 'Replaces actual time with simulated time '
